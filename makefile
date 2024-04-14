@@ -1,5 +1,5 @@
 carBase: bin/mainA3.o bin/addNewCar.o bin/countCars.o bin/loadCarData.o bin/lookForCarId.o bin/lookForCarModelType.o bin/noMoreCars.o bin/oneLessCar.o bin/printAll.o bin/printOne.o bin/sortCarId.o
-	gcc -Wall -std=c99 bin/mainA3.o bin/addNewCar.o bin/countCars.o bin/loadCarData.o bin/lookForCarId.o bin/lookForCarModelType.o bin/noMoreCars.o bin/oneLessCar.o bin/printAll.o bin/printOne.o bin/sortCarId.o
+	gcc -Wall -std=c99 bin/mainA3.o bin/addNewCar.o bin/countCars.o bin/loadCarData.o bin/lookForCarId.o bin/lookForCarModelType.o bin/noMoreCars.o bin/oneLessCar.o bin/printAll.o bin/printOne.o bin/sortCarId.o -o bin/carBase
 
 bin/mainA3.o: src/mainA3.c include/headerA3.h
 	gcc -Wall -std=c99 -c src/mainA3.c -o bin/mainA3.o
